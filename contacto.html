@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto Darwin Acevedo</title>
+    <meta name="description"
+        content="Contacta a Darwin Acevedo para resolver dudas, hablar de proyectos o colaborar en desarrollo web.">
+    <meta name="author" content="Darwin Acevedo">
+    <meta name="keywords" content="Contacto, formulario, mensaje, correo,Darwin Acevedo  ">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="img/images.png">
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        .formulario {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .formulario input,
+        .formulario textarea {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>Darwin Acevedo</p>
+        <nav>
+            <a href="index.html">Inicio</a> /
+            <a href="proyectos.html">Proyectos</a> /
+            <a href="articulos.html">Artículos</a> /
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+        <p>¿Quieres hablar de un proyecto o resolver una duda? Escríbeme y te responderé pronto.</p>
+
+        <section class="formulario">
+            <form action="#" method="POST">
+                <p>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."
+                        required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Darwin Julian Acevedo Torres</p>
+    </footer>
+</body>
+
+</html>

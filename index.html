@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Hoja de vida ">
+
+    <meta name="keywords" content="hoja de vida, estudiante, proyectos, experiencia, educación">
+
+    <meta name="author" content="Darwin Acevedo">
+    <link rel="icon" href="img/images.png">
+
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .presentacion {
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .columnas {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .resenas {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>Darwin Acevedo</p>
+        <nav>
+            <a href="index.html">Inicio</a> /
+            <a href="proyectos.html">Proyectos</a> /
+            <a href="articulos.html">Artículos</a> /
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="presentacion">
+            <h1>Desarrollador Junior</h1>
+            <p>Conocimientos en HTML, CSS, bases de datos, Figma, Git y GitHub.</p>
+        </section>
+
+        <hr>
+
+        <div class="columnas">
+            <section>
+                <h2>Proyectos</h2>
+                <ul>
+                    <li>CV en HTML</li>
+                    <li>Sitio web básico en HTML</li>
+                    <li>Portal web sobre Minecraft</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Experiencia</h2>
+                <h3>SENA, Sogamoso - Aprendiz</h3>
+                <p>2024 a 2026</p>
+                <p>Desarrollo de páginas web estáticas, diseño de interfaces en Figma y control de versiones con Git y
+                    GitHub.</p>
+
+            </section>
+
+            <section>
+                <h2>Educación</h2>
+                <h3>Programa Técnico en Sistemas Teleinformáticos</h3>
+                <p>SENA, 2025</p>
+                <h3>Bachiller</h3>
+                <p>Institución Educativa Tecnica Ramon Ignacio Avella 2025</p>
+            </section>
+        </div>
+        <hr>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Darwin Julian Acevedo Torres. </p>
+    </footer>
+
+
+</body>
+
+</html>
